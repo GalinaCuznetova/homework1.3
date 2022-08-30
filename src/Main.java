@@ -58,7 +58,7 @@ public class Main {
         int whiteJar = 2;
         int brownJar = 4;
         int whiteBrownJar = whiteJar + brownJar;
-        int classes = 120 / whiteBrownJar;
+        int classes = jar / whiteBrownJar;
         int totalWhite = whiteJar * classes;
         int totalBrown = brownJar * classes;
         System.out.println("В школе , где " + classes + " классов , нужно " + totalWhite + " банок белой краски и "
