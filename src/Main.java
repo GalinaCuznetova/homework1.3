@@ -83,6 +83,30 @@ public class Main {
         System.out.println("Спортсмену понадобится " + weightLossAverage + " дней в среднем");
         //Задача 8
         System.out.println("Задача 8");
+        int salaryMashaPerMonthOld = 67760;
+        float salaryMashaPerMonthNew = salaryMashaPerMonthOld + salaryMashaPerMonthOld / 100f * 10f;
+        int salaryMashaPerYearOld = salaryMashaPerMonthOld * 12;
+        float salaryMashaPerYearNew = salaryMashaPerMonthNew * 12f;
+        float differenceMashaPerYear = salaryMashaPerYearNew - salaryMashaPerYearOld;
+        System.out.println("Маша теперь получает " + salaryMashaPerMonthNew + " рублей в месяц." +
+                "Годовой доход варос на " + differenceMashaPerYear + " рублей.");
+        int salaryDenisPerMonthOld = 83690;
+        float salaryDenisPerMonthNew = salaryDenisPerMonthOld + salaryDenisPerMonthOld / 100f * 10f;
+        int salaryDenisPerYearOld = salaryDenisPerMonthOld * 12;
+        float salaryDenisPerYearNew = salaryDenisPerMonthNew * 12f;
+        float differenceDenisPerYear = salaryDenisPerYearNew - salaryDenisPerYearOld;
+        System.out.println("Денис теперь получает " + salaryDenisPerMonthNew + " рублей в месяц." +
+                "Годовой доход варос на " + differenceDenisPerYear + " рублей.");
+        int salaryKristinaPerMonthOld = 76230;
+        float salaryKristinaPerMonthNew = salaryKristinaPerMonthOld + salaryKristinaPerMonthOld / 100f * 10f;
+        int salaryKristinaPerYearOld = salaryKristinaPerMonthOld * 12;
+        float salaryKristinaPerYearNew = salaryKristinaPerMonthNew * 12f;
+        float differenceKristinaPerYear = salaryKristinaPerYearNew - salaryKristinaPerYearOld;
+        System.out.println("Кристина теперь получает " + salaryKristinaPerMonthNew + " рублей в месяц." +
+                "Годовой доход варос на " + differenceKristinaPerYear + " рублей.");
+
+
+
 
 
 
